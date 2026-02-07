@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  coffee-scheduler:
+    image: manas707/coffee-scheduler:latest
+    container_name: coffee-scheduler
+    ports:
+      - "8080:8080"
